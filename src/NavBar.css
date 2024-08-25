@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%; 
+    color:#fff;
+    background-color: #24252a;
+}
+
+.nav_links {
+    align-items: center;
+}
+
+.nav_links li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav_links a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    background-color: #FF8343;
+    border-radius: 5px;
+    
+}
+
+.button {
+    background-color: #E88D67;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    transition: 0.03s ease 0s;
+    background-color: #FFF6E9;
+    color: #1b1515;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing : border-box;
+    padding : 0;
+    margin : 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    font-family: "Montserrat";
+    border-collapse: collapse;
+    width: 100%;
+    padding: 50%;
+    width:auto;
+}
+
+table th{
+    font-weight: bold;
+}
+
+table td{
+    border: 1px solid #dddd;
+    padding: 10px;
+}
